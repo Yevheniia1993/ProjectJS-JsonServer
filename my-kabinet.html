@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .enterToKabinet{
+            border: 2px solid rgb(94, 159, 244);
+            width: 300px;
+            margin: 0 auto;
+            height: 180px;
+            text-align: center;
+            margin-top: 80px;
+            padding-top: 20px;
+        }
+    </style>
+    <div class="enterToKabinet">
+    <div>ВХОД НА САЙТ</div>
+    <div>ЛОГИН</div>
+    <input class="Login" type="text" placeholder="Ваш логин">
+    <div>ПАРОЛЬ</div>
+    <input class="Pass" type="text" placeholder="Ваш пароль">
+    <div style="margin-top:15px;">
+    <button onclick="Enter()">ВОЙТИ</button>
+    </div>
+    </div>
+</body>
+<!-- <script src="script.js"></script> -->
+<script>
+  
+    function Enter(){
+        fetch("http://localhost:3000/usersForKabinet?Login="+document.getElementsByClassName('Login')[0].value+"&Pasword="+document.getElementsByClassName('Pass')[0].value)
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    if(data.length!=0){
+        for(tovar of data){
+        location.href="vi-v-kabinete.html?Login="+tovar.Login+"&id="+tovar.id
+    }
+        var x=document.getElementsByClassName('Login')[0].value
+        var y=document.getElementsByClassName('Pass')[0].value
+  localStorage.setItem("myX", JSON.stringify(x));
+  localStorage.setItem("myY", JSON.stringify(y));
+    }
+    else{
+        alert('Введите правильно данные')
+    }
+    
+  });
+
+    }
+    
+</script>
+</html>

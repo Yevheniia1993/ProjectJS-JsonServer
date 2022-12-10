@@ -1,0 +1,789 @@
+{
+  "Catalog": [
+    {
+      "id": 1,
+      "UKtitle": "Книжки",
+      "title": "knigi"
+    },
+    {
+      "id": 2,
+      "UKtitle": "Електронні книжки",
+      "title": "elknigi"
+    },
+    {
+      "id": 3,
+      "UKtitle": "Аудіокниги",
+      "title": "audioknigi"
+    },
+    {
+      "id": 4,
+      "UKtitle": "Настільні ігри",
+      "title": "igri"
+    },
+    {
+      "id": 5,
+      "UKtitle": "Творчість, хоббі",
+      "title": "hobbi"
+    },
+    {
+      "id": 6,
+      "UKtitle": "Книжкові аксесуари",
+      "title": "acsesuaridlyaknig"
+    }
+  ],
+  "child": [
+    {
+      "id": 1,
+      "title": "psihologia",
+      "UKTitle": "Психологія",
+      "Parent": "knigi"
+    },
+    {
+      "id": 2,
+      "title": "hudlit",
+      "UKTitle": "Художня література",
+      "Parent": "knigi"
+    },
+    {
+      "id": 3,
+      "title": "istoria",
+      "UKTitle": "Історія",
+      "Parent": "knigi"
+    },
+    {
+      "id": 4,
+      "title": "elhud",
+      "UKTitle": "Електронні художні книжки",
+      "Parent": "elknigi"
+    },
+    {
+      "id": 5,
+      "title": "elistoria",
+      "UKTitle": "Електронні історичні книги",
+      "Parent": "elknigi"
+    },
+    {
+      "id": 6,
+      "title": "elbiznes",
+      "UKTitle": "Електронні бізнес книги",
+      "Parent": "elknigi"
+    }
+  ],
+  "children": [
+    {
+      "id": 1,
+      "Title": "1984",
+      "UKtitle": "1984",
+      "price": "150",
+      "Parent": "hudlit",
+      "UKParent": "Художня література",
+      "foto": "<img src='images/book7.jpeg'>",
+      "fotoimg": "images/book7.jpeg",
+      "About": "За версією BBC та журналу Ньюсвік, роман-антиутопія 1984 Джорджа Орвелла (справжнє ім’я — Ерік Артур Блер) увійшов до переліку 100 книг, що найбільше вплинули на світ, а 2009 року газета Таймс оголосила цей твір найважливішою книгою останніх 60 років. Натомість у СРСР вона була під забороною до 1988-го. Ще 1948 року Орвелл передбачив роль історичного знання у розвитку суспільства (Хто контролює минуле, той контролює майбутнє, а хто контролює сьогодення, контролює минуле) та вплив невсипущих телеекранів, які водночас виступають головним рупором тотальної пропаганди і засобом стеження. Що може протиставити головний герой Вінстон Сміт цій тоталітарній машині? Лише особисту пам’ять про події минулого та кохання до жінки. Проте й вони безсилі проти катів з Міністерства любові."
+    },
+    {
+      "id": 2,
+      "Title": "kafe na krayou svitu",
+      "UKtitle": "Кафе на краю світу",
+      "price": "150",
+      "Parent": "hudlit",
+      "UKParent": "Художня література",
+      "foto": "<img src='images/book6.jpeg'>",
+      "fotoimg": "images/book6.jpeg",
+      "About": "Зупиніться. Поставте на паузу щоденну метушню, вирвіться з її тенет і зазирніть до кафе на краю світу. Розгорніть меню й придивіться уважніше до останньої сторінки — там ви прочитаєте три запитання, від яких тікали все життя. Чому ви тут? Чи боїтеся ви смерті? Чи вдоволені ви? Ця книжка допоможе у пошуках відповідей. З нею ви запалите вогонь у душі, усвідомите, що цінне, а що — марнота, поглянете на життя під іншим кутом зору, незалежно від набутого досвіду. Кафе на краю світу — справжній видавничий феномен, бестселер поза часом, що надихнув мільйони людей у всьому світі на великі зміни. Чарівна, легка й наснажлива, ця книжка вплине на ваш світогляд і назавжди змінить життя."
+    },
+    {
+      "id": 3,
+      "Title": "charli i shokoladna fabrika",
+      "UKtitle": "Чарлі і шоколадна фабрика",
+      "price": "190",
+      "Parent": "hudlit",
+      "UKParent": "Художня література",
+      "foto": "<img src='images/book5.jpeg'>",
+      "fotoimg": "images/book5.jpeg",
+      "About": "Всем поклонникам творчества суперпопулярной Джоан Роулинг, без сомнения, будет интересно познакомиться с этой книгой, автора которой, Роальда Дала, принято считать литературным отцом знаменитой писательницы. Хотя, возможно, этот сюжет вам уже знаком, ведь Чарли и шоколадная фабрика - самая популярная книга Дала. Бедному мальчику, на каждый день рождения получавшему в подарок лишь маленький шоколадный батончик, предстоит удивительное приключение, ведь его доброта служит примером для других, а добро всегда получает свою награду."
+    },
+    {
+      "id": 4,
+      "Title": "the witchling's girl",
+      "UKtitle": "The Witchling's Girl",
+      "price": "1026",
+      "Parent": "hudlit",
+      "UKParent": "Художня література",
+      "foto": "<img src='images/book2.jpeg'>",
+      "fotoimg": "images/book2.jpeg",
+      "About": "Ще в прадавні часи люди спостерігали за зірками. Пізніше їхні нащадки зрозуміли, що за рухом небесних світил можна визначати, коли змінюється пора року. Розвиток науки приніс нові знання. Якою ж несподіванкою стало відкриття, що Земля — не центр Всесвіту, а лише крихітна його частинка! Це відкриття ставить перед людьми безліч нових запитань! Сьогодні люди літають у космос і досліджують далекі галактики за допомогою космічних апаратів… А ким хочеш стати ти, коли виростеш — астрономом чи космонавтом?"
+    },
+    {
+      "id": 5,
+      "Title": "misto divchat",
+      "UKtitle": "Місто дівчат",
+      "price": "114",
+      "Parent": "elhud",
+      "UKParent": "Електронні художні книжки",
+      "foto": "<img src='images/book9.jpeg'>",
+      "fotoimg": "images/book9.jpeg",
+      "About": "Це інтригуючий роман про жіночу сексуальність і свободу, про відвагу бути собою і право жити так, як тобі хочеться. А ще — історія дуже незвичайного кохання, на яке наклала свою тінь війна, та справжньої дружби, яку нелегко знайти, зрозуміти та оцінити, особливо в такому непростому і мінливому місті, як Нью-Йорк. Роман «Місто дівчат» починається 1940 року, коли дев’ятнадцятилітню Вівіан Морріс виганяють з престижного коледжу. Батьки відправляють доньку на Мангеттен до тітки — власниці невеликого, проте дуже ексцентричного театру. Несподівано для себе Вівіан опиняється у справжньому вирі довоєнного богемного життя. Знайомства із зірками, незвичайні театральні постановки, нестримний секс, ріки алкоголю і відчуття цілковитої свободи спершу заворожують та спокушають, а потім вибивають землю з-під ніг. І це лише початок шляху Вівіан довжиною в життя, який необхідно пройти, щоб зрозуміти: ти не мусиш бути хорошою дівчинкою, щоб бути хорошою людиною."
+    },
+    {
+      "id": 6,
+      "Title": "internat",
+      "UKtitle": "Інтернат",
+      "price": "75",
+      "Parent": "elhud",
+      "UKParent": "Електронні художні книжки",
+      "foto": "<img src='images/book10.jpeg'>",
+      "fotoimg": "images/book10.jpeg",
+      "About": "Одного разу, прокинувшись, ти бачиш за вікном вогонь. Ти його не розпалював. Але гасити його доведеться й тобі. ...Січень 2015 року. Донбас. Паша, вчитель однієї зі шкіл, спостерігає, як лінія фронту неухильно наближається до його дому. Стається так, що він змушений цю лінію перетнути. Щоби потім повернутись назад. І для цього йому щонайменше потрібно визначитись, на чиєму боці його дім."
+    },
+    {
+      "id": 7,
+      "Title": "kraina zhinochogo rodu",
+      "UKtitle": "Країна жіночого роду",
+      "price": "215",
+      "Parent": "istoria",
+      "UKParent": "Історія",
+      "foto": "<img src='images/book13.jpg'>",
+      "fotoimg": "images/book13.jpg",
+      "About": "Видатні українки XX століття часто лишаються непомітними. Про долю деяких героїнь цієї книжки хтось, можливо, почує вперше, однак їхню роль в українській історії не варто применшувати. Це лікарки, учительки, учасниці національно-визвольного руху, політув’язнені, журналістки, військовички, культурні діячки… Без них — сильних, активних, відданих — сторінки нашого роду були б зовсім інакшими."
+    },
+    {
+      "id": 8,
+      "Title": "korotka istoria USA",
+      "UKtitle": "Коротка історія США  ",
+      "price": "284",
+      "Parent": "istoria",
+      "UKParent": "Історія",
+      "foto": "<img src='images/book14.jpeg'>",
+      "fotoimg": "images/book14.jpeg",
+      "About": "Сучасну політичну ситуацію в США неможливо зрозуміти, не знаючи історичного розвитку цієї держави, і в цій книжці описані головні етапи її розбудови. Провідний історик Роберт Реміні подає найважливіші факти з історії Сполучених Штатів: від відкриття Нового світу та заснування республіки згідно з Конституцією і до постання світової держави, спалаху тероризму та останніх років президентства Джорджа Буша — молодшого, що мали значення для формування світогляду американської нації, її ідентичності, політичного устрою та місця на мапі світу. Автор також окреслює, яким повинен бути лідер США, щоб провадити гідну політику за теперішніх історичних викликів."
+    },
+    {
+      "id": 5,
+      "Title": "emoziyniy intelekt",
+      "UKtitle": "Емоційний інтелект",
+      "price": "235",
+      "Parent": "psihologia",
+      "UKParent": "Психологія",
+      "foto": "<img src='images/book11.png'>",
+      "fotoimg": "images/book11.png",
+      "About": "Залежність між інтелектом і життєвим успіхом зрозуміла і майже аксіоматична. А як впливає на життєві здобутки емоційна сфера людини? Які емоційні складники передусім формують нашу долю? Чи можна (і як саме, якщо так) виправити емоційні моделі, закладені в людині, коли вони гальмують її рух до кращого? І взагалі, чи реально об'єднати два слова - емоційний та інтелект - і не дістати суперечність? ВІдповіді на ці питання дає оперта на наукову базу й водночас легко написана для широкої аудиторії книжка Девіда Ґоулмана - один із безперечних психологічних бестселерів останніх десятиліть."
+    },
+    {
+      "id": 5,
+      "Title": "Dorosli ditu",
+      "UKtitle": "Дорослі діти емоційно незрілих батьків",
+      "price": "320",
+      "Parent": "psihologia",
+      "UKParent": "Психологія",
+      "foto": "<img src='images/book12.jpeg'>",
+      "fotoimg": "images/book12.jpeg",
+      "About": "Якщо ви виросли поруч з емоційно незрілими батьками, вам знайомі постійні відчуття самотності або невпевненості у власних силах. Подумки ви знову й знову повертаєтеся в дитинство і відчуваєте, як близькі нехтують вашими емоційними потребами та ігнорують ваші почуття. Можливо, ви зарано стали поводитися, як доросла людина, яка більше не потребує емоційної допомоги. Або ви саме зараз знаходитеся в токсичних стосунках з емоційно незрілою людиною і прагнете зрозуміти, як бути далі."
+    }
+  ],
+  "text": [
+    {
+      "id": 1,
+      "title": "text",
+      "textname": "Before the war – our mission was to make Ukraine the most read country in Europe. We believe that books are the first step towards goodness, progress, and an open mind. That is why our slogan is – reading is always okay!"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "my-server",
+      "author": "user"
+    },
+    {
+      "id": 4,
+      "title": "my-server11",
+      "author": "user3"
+    },
+    {
+      "author": "HELLO WORLD1111",
+      "title": "myuseruser",
+      "id": 5
+    },
+    {
+      "author": "user5",
+      "id": 8
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 9
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 10
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 11
+    },
+    {
+      "title": "mytitle2",
+      "author": "user6",
+      "id": 12
+    },
+    {
+      "title": "mytitle4",
+      "author": "user7",
+      "id": 13
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 14
+    },
+    {
+      "title": "mytitle7",
+      "author": "user7",
+      "id": 15
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 16
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 18
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 19
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 20
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 21
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 22
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 23
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 24
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 25
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 26
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 27
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 28
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 29
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 30
+    },
+    {
+      "title": "",
+      "author": "",
+      "id": 31
+    },
+    {
+      "author": "user5",
+      "title": "mytitle",
+      "id": 32
+    }
+  ],
+  "gods": [
+    {
+      "id": 1,
+      "tovarName": "Apple",
+      "prace": 100
+    },
+    {
+      "tovarName": "Sonyplay1",
+      "prace": "238",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "tovarName": "Philips",
+      "prace": 400
+    },
+    {
+      "id": 4,
+      "tovarName": "Samsung",
+      "prace": 600
+    },
+    {
+      "tovarName": "mango23",
+      "prace": "478",
+      "id": 5
+    },
+    {
+      "tovarName": "adidas",
+      "prace": "460",
+      "id": 6
+    },
+    {
+      "tovarName": "puma",
+      "prace": "123",
+      "id": 7
+    },
+    {
+      "tovarName": "ssss",
+      "prace": "3451",
+      "id": 8
+    },
+    {
+      "tovarName": "asd",
+      "prace": "333",
+      "id": 9
+    },
+    {
+      "tovarName": "asadas222",
+      "prace": "212",
+      "id": 10
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "Login": "Ivan",
+      "Pasword": 12345
+    },
+    {
+      "id": 2,
+      "Login": "Dima",
+      "Pasword": 1234567
+    }
+  ],
+  "usersForKabinet": [
+    {
+      "id": 1,
+      "Login": "Misha",
+      "Pasword": 12345,
+      "Email": "12345@gmail.com"
+    },
+    {
+      "id": 2,
+      "Login": "Ira",
+      "Pasword": "11111",
+      "Email": "11111@gmail.com"
+    },
+    {
+      "id": 3,
+      "Login": "Inna",
+      "Pasword": 1234567,
+      "Email": "1234567@gmail.com"
+    },
+    {
+      "id": 4,
+      "Login": "Anna",
+      "Pasword": 12345678,
+      "Email": "12345678@gmail.com"
+    }
+  ],
+  "ourOrders": [
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"forOrder\"><div class=\"forOrder\"><div class=\"forOrder\"><div class=\"forOrder\"><div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book7.jpeg\"></div><div class=\"nameBin\">1984</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book5.jpeg\"></div><div class=\"nameBin\">Чарлі і шоколадна фабрика</div>-<div class=\"priceBin\">190</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,190)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,190)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,190)\">x</button></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book14.jpeg\"></div><div class=\"nameBin\">Коротка історія США  </div>-<div class=\"priceBin\">284</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,284)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,284)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,284)\">x</button></div></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book11.png\"></div><div class=\"nameBin\">Емоційний інтелект</div>-<div class=\"priceBin\">235</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,235)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,235)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,235)\">x</button></div></div>",
+      "Total": "859",
+      "Email": "12345678@gmail.com",
+      "id": 1
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"forOrder\"><div class=\"forOrder\"><div class=\"forOrder\"><div class=\"forOrder\"><div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book7.jpeg\"></div><div class=\"nameBin\">1984</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book5.jpeg\"></div><div class=\"nameBin\">Чарлі і шоколадна фабрика</div>-<div class=\"priceBin\">190</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,190)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,190)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,190)\">x</button></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book14.jpeg\"></div><div class=\"nameBin\">Коротка історія США  </div>-<div class=\"priceBin\">284</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,284)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,284)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,284)\">x</button></div></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book11.png\"></div><div class=\"nameBin\">Емоційний інтелект</div>-<div class=\"priceBin\">235</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,235)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,235)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,235)\">x</button></div></div>",
+      "Total": "859",
+      "Email": "1234567@gmail.com",
+      "id": 2
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"forOrder\"><div class=\"forOrder\"><div class=\"forOrder\"><div class=\"forOrder\"><div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book7.jpeg\"></div><div class=\"nameBin\">1984</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book5.jpeg\"></div><div class=\"nameBin\">Чарлі і шоколадна фабрика</div>-<div class=\"priceBin\">190</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,190)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,190)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,190)\">x</button></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book14.jpeg\"></div><div class=\"nameBin\">Коротка історія США  </div>-<div class=\"priceBin\">284</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,284)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,284)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,284)\">x</button></div></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book11.png\"></div><div class=\"nameBin\">Емоційний інтелект</div>-<div class=\"priceBin\">235</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,235)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,235)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,235)\">x</button></div></div>",
+      "Total": "859",
+      "Email": "1234567@gmail.com",
+      "id": 3
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"forOrder\"><div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book5.jpeg\"></div><div class=\"nameBin\">Чарлі і шоколадна фабрика</div>-<div class=\"priceBin\">190</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,190)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,190)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,190)\">x</button></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book7.jpeg\"></div><div class=\"nameBin\">1984</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "490",
+      "Email": "12345@gmail.com",
+      "id": 4
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book10.jpeg\"></div><div class=\"nameBin\">Інтернат</div>-<div class=\"priceBin\">75</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,75)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,75)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,75)\">x</button></div></div>",
+      "Total": "75",
+      "Email": "11111@gmail.com",
+      "id": 5
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book10.jpeg\"></div><div class=\"nameBin\">Інтернат</div>-<div class=\"priceBin\">75</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,75)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,75)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,75)\">x</button></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "225",
+      "Email": "1234567@gmail.com",
+      "id": 6
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "150",
+      "Email": "11111@gmail.com",
+      "id": 7
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "150",
+      "Email": "ccc@h.co",
+      "id": 8
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "150",
+      "Email": "11111@gmail.com",
+      "id": 9
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "150",
+      "Email": "11111@gmail.com",
+      "id": 10
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "150",
+      "Email": "11111@gmail.com",
+      "id": 11
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "150",
+      "Email": "xff@h.com",
+      "id": 12
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "150",
+      "Email": "ff@gg.com",
+      "id": 13
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "150",
+      "Email": "gfg@gmail.com",
+      "id": 14
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "150",
+      "Email": "gfg@gmail.com",
+      "id": 15
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "150",
+      "Email": "zg@gmail.com",
+      "id": 16
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "150",
+      "Email": "fff@gg.cod",
+      "id": 17
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book5.jpeg\"></div><div class=\"nameBin\">Чарлі і шоколадна фабрика</div>-<div class=\"priceBin\">190</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,190)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,190)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,190)\">x</button></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "340",
+      "Email": "11111@gmail.com",
+      "id": 18
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "150",
+      "Email": "11111@gmail.com",
+      "id": 19
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "150",
+      "Email": "11111@gmail.com",
+      "id": 20
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "150",
+      "Email": "11111@gmail.com",
+      "id": 21
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book7.jpeg\"></div><div class=\"nameBin\">1984</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "300",
+      "Email": "11111@gmail.com",
+      "id": 22
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"forOrder\"><div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\">2</span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book7.jpeg\"></div><div class=\"nameBin\">1984</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\">2</span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book5.jpeg\"></div><div class=\"nameBin\">Чарлі і шоколадна фабрика</div>-<div class=\"priceBin\">190</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,190)\"> + </button><span class=\"one\">2</span><button class=\"Minus\" onclick=\"Minus(this,190)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,190)\">x</button></div></div>",
+      "Total": "980",
+      "Email": "11111@gmail.com",
+      "id": 23
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"forOrder\"><div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book5.jpeg\"></div><div class=\"nameBin\">Чарлі і шоколадна фабрика</div>-<div class=\"priceBin\">190</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,190)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,190)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,190)\">x</button></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book7.jpeg\"></div><div class=\"nameBin\">1984</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div>",
+      "Total": "490",
+      "Email": "11111@gmail.com",
+      "id": 24
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"forOrder\"><div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\">4</span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book7.jpeg\"></div><div class=\"nameBin\">1984</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\">4</span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book5.jpeg\"></div><div class=\"nameBin\">Чарлі і шоколадна фабрика</div>-<div class=\"priceBin\">190</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,190)\"> + </button><span class=\"one\">4</span><button class=\"Minus\" onclick=\"Minus(this,190)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,190)\">x</button></div></div>",
+      "Total": "1960",
+      "Email": "11111@gmail.com",
+      "id": 25
+    },
+    {
+      "Order": "<div class=\"forOrder\"><div class=\"forOrder\"><div class=\"forOrder\"><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book7.jpeg\"></div><div class=\"nameBin\">1984</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book6.jpeg\"></div><div class=\"nameBin\">Кафе на краю світу</div>-<div class=\"priceBin\">150</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,150)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,150)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,150)\">x</button></div></div><div class=\"orderBin\"><div class=\"forMyFoto\"><img src=\"images/book5.jpeg\"></div><div class=\"nameBin\">Чарлі і шоколадна фабрика</div>-<div class=\"priceBin\">190</div><div class=\"priceBin\">грн</div><button class=\"Plus\" onclick=\"Plus(this,190)\"> + </button><span class=\"one\"> 1 </span><button class=\"Minus\" onclick=\"Minus(this,190)\"> - </button><button class=\"deleteTovar\" onclick=\"MyDelete(this,190)\">x</button></div></div>",
+      "Total": "490",
+      "Email": "11111@gmail.com",
+      "id": 26
+    }
+  ],
+  "DreamsBook": [
+    [
+      {
+        "id": 1,
+        "Title": "1984",
+        "UKtitle": "1984",
+        "price": "150",
+        "Parent": "hudlit",
+        "UKParent": "Художня література",
+        "foto": "<img src='images/book7.jpeg'>",
+        "fotoimg": "images/book7.jpeg",
+        "About": "За версією BBC та журналу Ньюсвік, роман-антиутопія 1984 Джорджа Орвелла (справжнє ім’я — Ерік Артур Блер) увійшов до переліку 100 книг, що найбільше вплинули на світ, а 2009 року газета Таймс оголосила цей твір найважливішою книгою останніх 60 років. Натомість у СРСР вона була під забороною до 1988-го. Ще 1948 року Орвелл передбачив роль історичного знання у розвитку суспільства (Хто контролює минуле, той контролює майбутнє, а хто контролює сьогодення, контролює минуле) та вплив невсипущих телеекранів, які водночас виступають головним рупором тотальної пропаганди і засобом стеження. Що може протиставити головний герой Вінстон Сміт цій тоталітарній машині? Лише особисту пам’ять про події минулого та кохання до жінки. Проте й вони безсилі проти катів з Міністерства любові."
+      },
+      {
+        "id": 2,
+        "Title": "kafe na krayou svitu",
+        "UKtitle": "Кафе на краю світу",
+        "price": "150",
+        "Parent": "hudlit",
+        "UKParent": "Художня література",
+        "foto": "<img src='images/book6.jpeg'>",
+        "fotoimg": "images/book6.jpeg",
+        "About": "Зупиніться. Поставте на паузу щоденну метушню, вирвіться з її тенет і зазирніть до кафе на краю світу. Розгорніть меню й придивіться уважніше до останньої сторінки — там ви прочитаєте три запитання, від яких тікали все життя. Чому ви тут? Чи боїтеся ви смерті? Чи вдоволені ви? Ця книжка допоможе у пошуках відповідей. З нею ви запалите вогонь у душі, усвідомите, що цінне, а що — марнота, поглянете на життя під іншим кутом зору, незалежно від набутого досвіду. Кафе на краю світу — справжній видавничий феномен, бестселер поза часом, що надихнув мільйони людей у всьому світі на великі зміни. Чарівна, легка й наснажлива, ця книжка вплине на ваш світогляд і назавжди змінить життя."
+      },
+      {
+        "id": 3,
+        "Title": "charli i shokoladna fabrika",
+        "UKtitle": "Чарлі і шоколадна фабрика",
+        "price": "190",
+        "Parent": "hudlit",
+        "UKParent": "Художня література",
+        "foto": "<img src='images/book5.jpeg'>",
+        "fotoimg": "images/book5.jpeg",
+        "About": "Всем поклонникам творчества суперпопулярной Джоан Роулинг, без сомнения, будет интересно познакомиться с этой книгой, автора которой, Роальда Дала, принято считать литературным отцом знаменитой писательницы. Хотя, возможно, этот сюжет вам уже знаком, ведь Чарли и шоколадная фабрика - самая популярная книга Дала. Бедному мальчику, на каждый день рождения получавшему в подарок лишь маленький шоколадный батончик, предстоит удивительное приключение, ведь его доброта служит примером для других, а добро всегда получает свою награду."
+      }
+    ],
+    [
+      {
+        "id": 6,
+        "Title": "internat",
+        "UKtitle": "Інтернат",
+        "price": "75",
+        "Parent": "elhud",
+        "UKParent": "Електронні художні книжки",
+        "foto": "<img src='images/book10.jpeg'>",
+        "fotoimg": "images/book10.jpeg",
+        "About": "Одного разу, прокинувшись, ти бачиш за вікном вогонь. Ти його не розпалював. Але гасити його доведеться й тобі. ...Січень 2015 року. Донбас. Паша, вчитель однієї зі шкіл, спостерігає, як лінія фронту неухильно наближається до його дому. Стається так, що він змушений цю лінію перетнути. Щоби потім повернутись назад. І для цього йому щонайменше потрібно визначитись, на чиєму боці його дім."
+      },
+      {
+        "id": 7,
+        "Title": "kraina zhinochogo rodu",
+        "UKtitle": "Країна жіночого роду",
+        "price": "215",
+        "Parent": "istoria",
+        "UKParent": "Історія",
+        "foto": "<img src='images/book13.jpg'>",
+        "fotoimg": "images/book13.jpg",
+        "About": "Видатні українки XX століття часто лишаються непомітними. Про долю деяких героїнь цієї книжки хтось, можливо, почує вперше, однак їхню роль в українській історії не варто применшувати. Це лікарки, учительки, учасниці національно-визвольного руху, політув’язнені, журналістки, військовички, культурні діячки… Без них — сильних, активних, відданих — сторінки нашого роду були б зовсім інакшими."
+      }
+    ],
+    {
+      "Order": [
+        {
+          "id": 1,
+          "Title": "1984",
+          "UKtitle": "1984",
+          "price": "150",
+          "Parent": "hudlit",
+          "UKParent": "Художня література",
+          "foto": "<img src='images/book7.jpeg'>",
+          "fotoimg": "images/book7.jpeg",
+          "About": "За версією BBC та журналу Ньюсвік, роман-антиутопія 1984 Джорджа Орвелла (справжнє ім’я — Ерік Артур Блер) увійшов до переліку 100 книг, що найбільше вплинули на світ, а 2009 року газета Таймс оголосила цей твір найважливішою книгою останніх 60 років. Натомість у СРСР вона була під забороною до 1988-го. Ще 1948 року Орвелл передбачив роль історичного знання у розвитку суспільства (Хто контролює минуле, той контролює майбутнє, а хто контролює сьогодення, контролює минуле) та вплив невсипущих телеекранів, які водночас виступають головним рупором тотальної пропаганди і засобом стеження. Що може протиставити головний герой Вінстон Сміт цій тоталітарній машині? Лише особисту пам’ять про події минулого та кохання до жінки. Проте й вони безсилі проти катів з Міністерства любові."
+        },
+        {
+          "id": 3,
+          "Title": "charli i shokoladna fabrika",
+          "UKtitle": "Чарлі і шоколадна фабрика",
+          "price": "190",
+          "Parent": "hudlit",
+          "UKParent": "Художня література",
+          "foto": "<img src='images/book5.jpeg'>",
+          "fotoimg": "images/book5.jpeg",
+          "About": "Всем поклонникам творчества суперпопулярной Джоан Роулинг, без сомнения, будет интересно познакомиться с этой книгой, автора которой, Роальда Дала, принято считать литературным отцом знаменитой писательницы. Хотя, возможно, этот сюжет вам уже знаком, ведь Чарли и шоколадная фабрика - самая популярная книга Дала. Бедному мальчику, на каждый день рождения получавшему в подарок лишь маленький шоколадный батончик, предстоит удивительное приключение, ведь его доброта служит примером для других, а добро всегда получает свою награду."
+        },
+        {
+          "id": 5,
+          "Title": "misto divchat",
+          "UKtitle": "Місто дівчат",
+          "price": "114",
+          "Parent": "elhud",
+          "UKParent": "Електронні художні книжки",
+          "foto": "<img src='images/book9.jpeg'>",
+          "fotoimg": "images/book9.jpeg",
+          "About": "Це інтригуючий роман про жіночу сексуальність і свободу, про відвагу бути собою і право жити так, як тобі хочеться. А ще — історія дуже незвичайного кохання, на яке наклала свою тінь війна, та справжньої дружби, яку нелегко знайти, зрозуміти та оцінити, особливо в такому непростому і мінливому місті, як Нью-Йорк. Роман «Місто дівчат» починається 1940 року, коли дев’ятнадцятилітню Вівіан Морріс виганяють з престижного коледжу. Батьки відправляють доньку на Мангеттен до тітки — власниці невеликого, проте дуже ексцентричного театру. Несподівано для себе Вівіан опиняється у справжньому вирі довоєнного богемного життя. Знайомства із зірками, незвичайні театральні постановки, нестримний секс, ріки алкоголю і відчуття цілковитої свободи спершу заворожують та спокушають, а потім вибивають землю з-під ніг. І це лише початок шляху Вівіан довжиною в життя, який необхідно пройти, щоб зрозуміти: ти не мусиш бути хорошою дівчинкою, щоб бути хорошою людиною."
+        }
+      ],
+      "Email": "email@con",
+      "id": 3
+    },
+    {
+      "Order": [
+        {
+          "id": 1,
+          "Title": "1984",
+          "UKtitle": "1984",
+          "price": "150",
+          "Parent": "hudlit",
+          "UKParent": "Художня література",
+          "foto": "<img src='images/book7.jpeg'>",
+          "fotoimg": "images/book7.jpeg",
+          "About": "За версією BBC та журналу Ньюсвік, роман-антиутопія 1984 Джорджа Орвелла (справжнє ім’я — Ерік Артур Блер) увійшов до переліку 100 книг, що найбільше вплинули на світ, а 2009 року газета Таймс оголосила цей твір найважливішою книгою останніх 60 років. Натомість у СРСР вона була під забороною до 1988-го. Ще 1948 року Орвелл передбачив роль історичного знання у розвитку суспільства (Хто контролює минуле, той контролює майбутнє, а хто контролює сьогодення, контролює минуле) та вплив невсипущих телеекранів, які водночас виступають головним рупором тотальної пропаганди і засобом стеження. Що може протиставити головний герой Вінстон Сміт цій тоталітарній машині? Лише особисту пам’ять про події минулого та кохання до жінки. Проте й вони безсилі проти катів з Міністерства любові."
+        },
+        {
+          "id": 2,
+          "Title": "kafe na krayou svitu",
+          "UKtitle": "Кафе на краю світу",
+          "price": "150",
+          "Parent": "hudlit",
+          "UKParent": "Художня література",
+          "foto": "<img src='images/book6.jpeg'>",
+          "fotoimg": "images/book6.jpeg",
+          "About": "Зупиніться. Поставте на паузу щоденну метушню, вирвіться з її тенет і зазирніть до кафе на краю світу. Розгорніть меню й придивіться уважніше до останньої сторінки — там ви прочитаєте три запитання, від яких тікали все життя. Чому ви тут? Чи боїтеся ви смерті? Чи вдоволені ви? Ця книжка допоможе у пошуках відповідей. З нею ви запалите вогонь у душі, усвідомите, що цінне, а що — марнота, поглянете на життя під іншим кутом зору, незалежно від набутого досвіду. Кафе на краю світу — справжній видавничий феномен, бестселер поза часом, що надихнув мільйони людей у всьому світі на великі зміни. Чарівна, легка й наснажлива, ця книжка вплине на ваш світогляд і назавжди змінить життя."
+        }
+      ],
+      "Email": "1111email@con",
+      "id": 4
+    },
+    {
+      "Order": [
+        {
+          "id": 6,
+          "Title": "internat",
+          "UKtitle": "Інтернат",
+          "price": "75",
+          "Parent": "elhud",
+          "UKParent": "Електронні художні книжки",
+          "foto": "<img src='images/book10.jpeg'>",
+          "fotoimg": "images/book10.jpeg",
+          "About": "Одного разу, прокинувшись, ти бачиш за вікном вогонь. Ти його не розпалював. Але гасити його доведеться й тобі. ...Січень 2015 року. Донбас. Паша, вчитель однієї зі шкіл, спостерігає, як лінія фронту неухильно наближається до його дому. Стається так, що він змушений цю лінію перетнути. Щоби потім повернутись назад. І для цього йому щонайменше потрібно визначитись, на чиєму боці його дім."
+        },
+        {
+          "id": 8,
+          "Title": "korotka istoria USA",
+          "UKtitle": "Коротка історія США  ",
+          "price": "284",
+          "Parent": "istoria",
+          "UKParent": "Історія",
+          "foto": "<img src='images/book14.jpeg'>",
+          "fotoimg": "images/book14.jpeg",
+          "About": "Сучасну політичну ситуацію в США неможливо зрозуміти, не знаючи історичного розвитку цієї держави, і в цій книжці описані головні етапи її розбудови. Провідний історик Роберт Реміні подає найважливіші факти з історії Сполучених Штатів: від відкриття Нового світу та заснування республіки згідно з Конституцією і до постання світової держави, спалаху тероризму та останніх років президентства Джорджа Буша — молодшого, що мали значення для формування світогляду американської нації, її ідентичності, політичного устрою та місця на мапі світу. Автор також окреслює, яким повинен бути лідер США, щоб провадити гідну політику за теперішніх історичних викликів."
+        },
+        {
+          "id": 5,
+          "Title": "emoziyniy intelekt",
+          "UKtitle": "Емоційний інтелект",
+          "price": "235",
+          "Parent": "psihologia",
+          "UKParent": "Психологія",
+          "foto": "<img src='images/book11.png'>",
+          "fotoimg": "images/book11.png",
+          "About": "Залежність між інтелектом і життєвим успіхом зрозуміла і майже аксіоматична. А як впливає на життєві здобутки емоційна сфера людини? Які емоційні складники передусім формують нашу долю? Чи можна (і як саме, якщо так) виправити емоційні моделі, закладені в людині, коли вони гальмують її рух до кращого? І взагалі, чи реально об'єднати два слова - емоційний та інтелект - і не дістати суперечність? ВІдповіді на ці питання дає оперта на наукову базу й водночас легко написана для широкої аудиторії книжка Девіда Ґоулмана - один із безперечних психологічних бестселерів останніх десятиліть."
+        }
+      ],
+      "Email": "email@con",
+      "id": 5
+    },
+    {
+      "Order": [
+        {
+          "id": 5,
+          "Title": "misto divchat",
+          "UKtitle": "Місто дівчат",
+          "price": "114",
+          "Parent": "elhud",
+          "UKParent": "Електронні художні книжки",
+          "foto": "<img src='images/book9.jpeg'>",
+          "fotoimg": "images/book9.jpeg",
+          "About": "Це інтригуючий роман про жіночу сексуальність і свободу, про відвагу бути собою і право жити так, як тобі хочеться. А ще — історія дуже незвичайного кохання, на яке наклала свою тінь війна, та справжньої дружби, яку нелегко знайти, зрозуміти та оцінити, особливо в такому непростому і мінливому місті, як Нью-Йорк. Роман «Місто дівчат» починається 1940 року, коли дев’ятнадцятилітню Вівіан Морріс виганяють з престижного коледжу. Батьки відправляють доньку на Мангеттен до тітки — власниці невеликого, проте дуже ексцентричного театру. Несподівано для себе Вівіан опиняється у справжньому вирі довоєнного богемного життя. Знайомства із зірками, незвичайні театральні постановки, нестримний секс, ріки алкоголю і відчуття цілковитої свободи спершу заворожують та спокушають, а потім вибивають землю з-під ніг. І це лише початок шляху Вівіан довжиною в життя, який необхідно пройти, щоб зрозуміти: ти не мусиш бути хорошою дівчинкою, щоб бути хорошою людиною."
+        },
+        {
+          "id": 6,
+          "Title": "internat",
+          "UKtitle": "Інтернат",
+          "price": "75",
+          "Parent": "elhud",
+          "UKParent": "Електронні художні книжки",
+          "foto": "<img src='images/book10.jpeg'>",
+          "fotoimg": "images/book10.jpeg",
+          "About": "Одного разу, прокинувшись, ти бачиш за вікном вогонь. Ти його не розпалював. Але гасити його доведеться й тобі. ...Січень 2015 року. Донбас. Паша, вчитель однієї зі шкіл, спостерігає, як лінія фронту неухильно наближається до його дому. Стається так, що він змушений цю лінію перетнути. Щоби потім повернутись назад. І для цього йому щонайменше потрібно визначитись, на чиєму боці його дім."
+        },
+        {
+          "id": 7,
+          "Title": "kraina zhinochogo rodu",
+          "UKtitle": "Країна жіночого роду",
+          "price": "215",
+          "Parent": "istoria",
+          "UKParent": "Історія",
+          "foto": "<img src='images/book13.jpg'>",
+          "fotoimg": "images/book13.jpg",
+          "About": "Видатні українки XX століття часто лишаються непомітними. Про долю деяких героїнь цієї книжки хтось, можливо, почує вперше, однак їхню роль в українській історії не варто применшувати. Це лікарки, учительки, учасниці національно-визвольного руху, політув’язнені, журналістки, військовички, культурні діячки… Без них — сильних, активних, відданих — сторінки нашого роду були б зовсім інакшими."
+        }
+      ],
+      "Email": "email@con",
+      "id": 6
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

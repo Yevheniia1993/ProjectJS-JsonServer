@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    .zagolovok{
+        font-family: Tahoma;
+        font-size: 30px;
+        font-weight: bold;
+        color: #007CAA;
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .Plus{
+        display: none;
+    }
+    .Minus{
+        display: none;
+    }
+    .deleteTovar{
+        display: none;
+    }
+    .one::before{
+        content: 'кількість -';
+        margin-left: 5px;
+        margin-right: 5px;
+        font-family: Tahoma;
+        font-size: 15px;
+        font-weight: bold;
+        color: #007CAA;
+    }
+    .one{
+        font-family: Tahoma;
+        font-size: 15px;
+        font-weight: bold;
+        color: #007CAA;
+    }
+    .nameBin{
+        font-family: Tahoma;
+        font-size: 15px;
+        font-weight: bold;
+        color: #007CAA;
+    }
+    .priceBin{
+        font-family: Tahoma;
+        font-size: 15px;
+        font-weight: bold;
+        color: #007CAA;
+    }
+    .orderBin{
+        display: flex;
+    }
+    .forMyFoto{
+        width: 10%;
+    }
+    .forMyFoto img{
+        width: 87%
+    }
+    .summaOrder{
+        font-family: Tahoma;
+        font-size: 15px;
+        font-weight: bold;
+        color: #007CAA; 
+        margin-top: 53px;
+    }
+    .totalOrder{
+        font-size: 25px;
+    }
+    .forDisplay{
+        display: flex;
+    }
+    .FIO{
+        font-family: Tahoma;
+        font-size: 15px;
+        font-weight: bold;
+        color: #007CAA; 
+        padding-top: 10px;
+    }
+    .Input1{
+        width: 180px;
+        height: 24px;
+        margin-top: 3px;
+    }
+    .Input2{
+        width: 30%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    height: 100%;
+    border: 2px solid  #007CAA; 
+    }
+    .Order{
+    margin-top: 6%;
+    background: none;
+    border: 2px solid #007CAA; 
+    border-radius: 7%;
+    font-family: Tahoma;
+    font-size: 22px;
+    color:  #007CAA; ;
+    width: 214px;
+    height: 50px;
+    }
+</style>
+    <div class="zagolovok">Ваше замовлення</div>
+    <div class="forDisplay">
+    <div style="width:53%">
+    <div class="orderTovar"></div>
+    <div class="summaOrder">ВСЬОГО ДО СПЛАТИ
+        <span class="totalOrder"> </span><span>  ГРН</span>
+    </div>
+   </div>
+        <div class="Input2"> 
+            <div class="FIO">ВВЕДІТЬ ВАШУ ОСОБИСТУ ІНФОРМАЦІЮ</div>
+            <div class="FIO">Прізвище, імя, по батькові</div>
+            <input class="Input1" type="text" placeholder="Иванов Иван Иванович"> 
+            <div class="FIO">Телефон</div>
+            <input class="Input1" type="number" placeholder="Телефон">
+            <div class="FIO">Електронна пошта</div>
+            <input class="Input1" type="text" placeholder="Почта">
+            <div>
+            <button class="Order" onclick="PayOrder()"> Перейти до сплати </button>
+        </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+<script>
+    if(JSON.parse(localStorage.getItem("myX"))!=null){
+        document.getElementsByClassName('Input1')[0].style.display="none"
+        document.getElementsByClassName('Input1')[2].disabled=true
+        document.getElementsByClassName('Input1')[2].value=JSON.parse(localStorage.getItem("emailMy"))
+    }
+    document.getElementsByClassName('orderTovar')[0].innerHTML= JSON.parse(
+    localStorage.getItem("mybin"))
+    document.getElementsByClassName('totalOrder')[0].innerHTML= JSON.parse(
+    localStorage.getItem("mybinS"))
+    
+    function PayOrder(){
+        var x = document.getElementsByClassName("Input1")[0].value;
+  var y = document.getElementsByClassName("Input1")[1].value;
+  var z = document.getElementsByClassName("Input1")[2].value;
+  console.log(x + " " + y + " " + z);
+  if (JSON.parse(localStorage.getItem("myX"))==null){
+  if (x == "" || x == " " || x.length == 0) {
+    alert("поле не заполнено");
+  }
+}
+  // length означает длинна нашего поля
+
+  if (y.length == 0) {
+    alert("поле имя не заполнено");
+  }
+  if (z.length == 0) {
+    alert("поле имя не заполнено");
+  }
+  // проверка имени
+  if (JSON.parse(localStorage.getItem("myX"))==null){
+  var rege = /^[А-Я][а-я]+\s[А-Я][а-я]+\s[А-Я][а-я]+$/;
+  var name = x;
+  if (rege.test(name) == false) {
+    alert("Введите корректно имя");
+    document.getElementsByClassName("Input1")[0].style.border = "2px solid red";
+    return false;
+  } else {
+    document.getElementsByClassName("Input1")[0].style.border =
+      "1px solid grey";
+  }
+}
+  // проверка номера телефона на правильность заполнения (регулярные выражения)
+  let regex = /^((\+?3)?8)?((0\(\d{2}\)?)|(\(0\d{2}\))|(0\d{2}))\d{7}$/;
+  let phone = y;
+  // дальше идет проверка на соответствие выражению
+  if (!regex.test(phone)) {
+    alert("Не соответствует номер телофона");
+    document.getElementsByClassName("Input1")[1].style.border = "2px solid red";
+  } else {
+    document.getElementsByClassName("Input1")[1].style.border =
+      "1px solid grey";
+  }
+  // проверка эмеила
+  var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+  var address = z;
+  if (reg.test(address) == false) {
+    alert("Введите корректный e-mail");
+    document.getElementsByClassName("Input1")[2].style.border = "2px solid red";
+    return false;
+  } else {
+    document.getElementsByClassName("Input1")[2].style.border =
+      "1px solid grey";
+  }
+  var tovars=document.getElementsByClassName('orderTovar')[0].innerHTML
+  var total=document.getElementsByClassName('totalOrder')[0].innerHTML
+  var email=document.getElementsByClassName('Input1')[2].value
+  var payload = {
+    
+            Order: tovars,
+            Total: total,
+            Email: email
+            };
+            fetch('http://localhost:3000/ourOrders',
+        {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json'
+        },
+            body: JSON.stringify(payload)
+        })
+        .then((response) => {
+      
+      return response.json();
+        })
+            .then((data) => {
+                
+                console.log(data);
+        })
+        localStorage.setItem("mybin", null);
+  location.href="zakazOformlen.html"
+    }
+</script>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookShopOnline</title>
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<center>
+    <style>
+        .finish{
+            width: 580px;
+    margin: 0 auto;
+    margin-top: 85px;
+    text-align: center;
+        }
+        .finish a {
+           text-decoration: none;
+           
+        }
+    
+    </style>
+  <div class="wrapper">
+    <div class="logo"> <a class="logo" href="file:///Users/yevheniichuhuitsev/Yevheniia/ProjectJS+JsonServer/index.html">BOOK </a> <strong>ShopOnline</strong></div>
+    <div class="binForTovars">
+      <div class="binText">ВАШ ЗАКАЗ</div>
+      <div class="binOrders"></div>
+      <div class="binSummaText">СТОИМОСТЬ ЗАКАЗА: 
+      <div class="binSumma"></div>
+      <div class="forUah">ГРН</div>
+      <button class="binButton" onclick="Order()">ПЕРЕЙТИ К ОФОРМЛЕНИЮ ЗАКАЗА</button>
+      </div>
+    </div>
+    <div class="menu">
+      <ul class="solidblockmenu">
+        <li><a href="http://all-free-download.com/free-website-templates/">Акції</a></li>
+        <li><a href="http://all-free-download.com/free-website-templates/">Про магазин</a></li>
+        <li><a href="http://all-free-download.com/free-website-templates/">Доставка</a></li>
+        <li><a href="http://all-free-download.com/free-website-templates/">Оплата</a></li>
+        <li><a href="http://all-free-download.com/free-website-templates/">Контакти</a></li>
+        <li><a href="http://all-free-download.com/free-website-templates/">Блог</a></li>
+        <li class="bin"><div class="ourBook"></div><img src="images/diagram61.png" alt=""></li>
+        <li class="bin" onclick="myCabinet()"><img src="images/user.png" alt=""><div>Особистий кабінет</div ><div class='LoginMy'></div></li>
+      </ul>
+      <div class="clear"></div>
+    </div>
+  </div>
+    <div class="finish">
+    <div >Ваш заказ успешно оформлен! Наш менеджер свяжется с вами в течении пяти минут</div>
+    <a href="file:///Users/yevheniichuhuitsev/Yevheniia/ProjectJS+JsonServer/index.html">Перейти на главную</a>
+    </div>
+</center>
+<script src="script.js"></script>
+<script>
+
+console.log(localStorage.getItem("mybin"))
+</script>
+</body>
+</html>

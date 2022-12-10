@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookShopOnline</title>
+<link href="style/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <center>
+        <div class="wrapper">
+          <div class="logo"> <a class="logo" href="file:///Users/yevheniichuhuitsev/Yevheniia/ProjectJS+JsonServer/index.html">BOOK </a> <strong>ShopOnline</strong></div>
+          <div class="binForTovars">
+            <div class="binText">ВАШЕ ЗАМОВЛЕННЯ</div>
+            <div class="binOrders"></div>
+            <div class="binSummaText">ПІДСУМОК: 
+            <div class="binSumma"></div>
+            <div class="forUah">ГРН</div>
+            <button class="binButton" onclick="Order()">ПЕРЕЙТИ ДО ОФОРМЛЕННЯ ЗАМОВЛЕННЯ</button>
+              </div>
+          </div>
+          <div class="menu">
+            <ul class="solidblockmenu">
+              <li><a href="http://all-free-download.com/free-website-templates/">Акції</a></li>
+              <li><a href="http://all-free-download.com/free-website-templates/">Про магазин</a></li>
+              <li><a href="http://all-free-download.com/free-website-templates/">Доставка</a></li>
+              <li><a href="http://all-free-download.com/free-website-templates/">Оплата</a></li>
+              <li><a href="http://all-free-download.com/free-website-templates/">Контакти</a></li>
+              <li><a href="http://all-free-download.com/free-website-templates/">Блог</a></li>
+              <li class="bin"><div class="ourBook"></div><img src="images/diagram61.png" alt=""></li>
+              <li class="bin" onclick="myCabinet()"><img src="images/user.png" alt=""><div>Особистий кабінет</div><div class='LoginMy'></div></li>
+            </ul>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <div class="search">
+          <div class="search-text"> Пошук товарів&nbsp;
+            <input type="text" size="40" class="inputSearch" />
+            &nbsp;&nbsp;</div>
+          <div style="float:left; margin-left:5px; margin-top:10px;">
+            <button class="SearchForButton"  onclick="forSearch()">Знайти</button>
+          </div>
+        </div>
+        <div class="body-wrapper">
+          <div class="body-right">
+            <div class="body-right-box1">
+              <div class="right-topic-title"> Популярні розділи</div>
+            </div>
+            <div class="separator"> &nbsp;</div>
+            <div class="body-right-ad1"> &nbsp;</div>
+            <div class="separator"> &nbsp;</div>
+            <div class="body-right-ad2"> &nbsp;</div>
+            <div class="separator"> &nbsp;</div>
+            <div class="body-right-ad3"> &nbsp;</div>
+          </div>
+          <div class="divider1"> &nbsp;</div>
+          <div class="body-middle">
+            <div class="body-middle-boxNew">
+            </div>
+            <div class="separator-middle"> &nbsp;</div>
+            <div class="body-middle-box3">
+              <div class="gallery-name" style="margin-left:15px;padding-top:7px;">Хіти продажу&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Новинки&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Розпродаж</div>
+              <div style="clear:both;" class="gallery-product">
+              </div>
+            </div>
+          </div>
+          <div class="divider2"> &nbsp;</div>
+          <div class="body-left">
+            <div class="left-main-title"> КАТАЛОГ ТОВАРІВ</div>
+            <div class="left-topic-title"> </div>
+          </div>
+        </div>
+        <div class="separator-main"> &nbsp;</div>
+        <div class="footer">
+          <div class="footer-text" style="padding-top:10px;margin-left:20px;"> <a href="http://all-free-download.com/free-website-templates/" class="nav1">Про магазин</a>&nbsp;&nbsp;<span style="color:#dbdbdb">|</span>&nbsp;&nbsp;<a href="http://all-free-download.com/free-website-templates/" class="nav1">Вакансії</a>&nbsp;&nbsp;<span style="color:#dbdbdb">|</span>&nbsp;&nbsp;<a href="http://all-free-download.com/free-website-templates/" class="nav1">Контакти</a>&nbsp;&nbsp;<span style="color:#dbdbdb">|</span>&nbsp;&nbsp;<a href="http://all-free-download.com/free-website-templates/" class="nav1">Оплата</a>&nbsp;&nbsp;<span style="color:#dbdbdb">|</span>&nbsp;&nbsp;<a href="http://all-free-download.com/free-website-templates/" class="nav1">Доставка</a>&nbsp;&nbsp;<span style="color:#dbdbdb">|</span>&nbsp;&nbsp;<a href="http://all-free-download.com/free-website-templates/" class="nav1">FAQ&#8217;s</a>&nbsp;&nbsp;<span style="color:#dbdbdb">|</span>&nbsp;&nbsp;<a href="http://all-free-download.com/free-website-templates/" class="nav1">Повернення товару</a>&nbsp;&nbsp;<span style="color:#dbdbdb">|</span>&nbsp;&nbsp;<a href="http://all-free-download.com/free-website-templates/" class="nav1">Сертифікати</a></div>
+          <div class="footer-text" style="padding-top:20px;margin-left:20px;"> © BookShop 2004-2021. Усі права захищено
+          </div>
+        </div>
+      </center>
+      <script>
+        localStorage.setItem('page',2)
+      </script>
+      <script src="script.js"></script>
+      <script>
+        console.log(JSON.parse(
+    localStorage.getItem("mybin")))
+    console.log(JSON.parse(
+    localStorage.getItem("mybinS")))
+        var popTovar = location.search.split('page=')[1]
+        console.log(popTovar)
+        fetch('http://localhost:3000/children?Parent='+popTovar)
+            .then((response) => {
+            return response.json();
+        })
+           .then((data) => {
+               console.log(data);
+               for(poptov of data){
+               console.log(poptov.UKtitle);
+               document.getElementsByClassName("body-middle-boxNew")[0].innerHTML =
+        document.getElementsByClassName("body-middle-boxNew")[0].innerHTML + '<div class="gallery-product-book-forLeft">'+
+          poptov.foto+'<div class="gallery-nameP">'+'<a class="gallery-nameP" href="datail-tovar.html?page='+poptov.Title+'">'+poptov.UKtitle+'</a>'+'</div>'+'<div class="gallery-price" >'+poptov.price+'грн'+'</div>'+"</div>";
+               }
+              
+        })
+    </script>
+    
+</body>
+</html>
